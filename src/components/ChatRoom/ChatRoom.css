@@ -1,0 +1,26 @@
+.voice-record {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .voice-record:hover {
+    background: #0056b3;
+  }
+  
+  .message audio {
+    margin: 16px 0 12px;
+  }
+  
+  .submitBtn {
+    width: 20%;
+  }
+  
+  .sent audio::-webkit-media-controls-panel {
+    background: #0b93f6;
+  }
+  

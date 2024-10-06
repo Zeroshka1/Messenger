@@ -1,0 +1,83 @@
+.ActiveUsersList {
+    max-width: 723px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    z-index: 98;
+    border: 3px solid white;
+  }
+  
+  .ActiveUsersList h3 {
+    font-size: 20px;
+    margin-top: 18px;
+  }
+  
+  .ActiveUsersList ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .ActiveUsersList li {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ActiveUsersList li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .ActiveUsersList li img {
+    margin-right: 15px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .user-join-message {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-join-message p {
+    color: #777777;
+  }
+  
+  .allUsers {
+    margin-left: 50px;
+  }
+
+  .avatar{
+    margin-left: 20px;
+  }
+  @media screen and (max-width: 767px){
+    .allUsers {
+      margin-left: 0px;
+    }
+  
+    .ActiveUsersList {
+      max-width: 98%;
+      padding: 0;
+    }
+  
+    .ActiveUsersList h3 {
+      font-size: 18px;
+    }
+  
+    .close-button {
+      top: 5px;
+      right: 5px;
+    }
+  
+  }
