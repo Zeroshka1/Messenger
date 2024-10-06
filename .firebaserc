@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "fireship-demos",
+    "ZERO": "zero-3f1d9"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
